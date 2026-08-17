@@ -1,0 +1,23 @@
+# Supplied or derived financial data
+data/
+cache/
+outputs/
+submission/
+archive/
+
+# Generated artifacts
+*.parquet
+*.zip
+reproduction_audit.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
