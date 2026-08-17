@@ -12,14 +12,6 @@ tournament → direction + quantile models → confidence branches → freeze �
 final scoring → CSV emission → report → verified ZIP. Roughly 25–45 minutes on 8 cores
 with a warm minute cache; rebuilding the minute cache from raw files takes longer.
 
-## How I spent my time
-
-- 25% data integrity, exchange-calendar alignment, target construction and leakage controls.
-- 30% economic hypotheses, feature design and descriptive diagnostics.
-- 25% chronological OOF experiments, model comparison and ablation analysis.
-- 10% uncertainty, calibration, transaction-cost and robustness analysis.
-- 10% reproducibility checks, report writing and clean-room packaging.
-
 Place the supplied Parquets at `../data/daily/` and `../data/minute/` relative to
 `code/` (or edit `config.yaml`). If the configured minute cache is absent, the
 pipeline deterministically rebuilds it from the raw 09:15–15:29 bars.
