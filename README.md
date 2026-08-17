@@ -1,12 +1,5 @@
 # Overnight Return Prediction — Kabyashree Dey
 
-Four-output forecasting system for the Quant Researcher Intern, Equity Desk assignment.
-
-Four outputs per stock per session, from three parallel branches plus one
-distribution support model. Nothing downstream depends on a previous branch's
-*point forecast* except where that dependence is the point (magnitude reliability
-must know the magnitude model's own errors).
-
 ## Run
 
 ```bash
